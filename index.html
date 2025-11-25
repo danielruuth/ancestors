@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ancestors Site</title>
+    <meta name="description" content="Static ancestors site powered by Vite" />
+    <script type="module">
+      const target = new URL('/index.htm', window.location.origin);
+      target.search = window.location.search;
+      target.hash = window.location.hash;
+      window.location.replace(target.toString());
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <p>
+        JavaScript krävs för att omdirigera till huvudwebbplatsen. Besök
+        <a href="/index.htm">/index.htm</a> om du inte omdirigeras automatiskt.
+      </p>
+    </noscript>
+  </body>
+</html>
