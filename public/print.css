@@ -1,0 +1,443 @@
+/* CSS file print.css for Disgen07, issuedate=180316 */
+
+body {
+  margin-left: 1em;
+  margin-right: 1em;
+  font-size: 12pt;
+  font-variant: normal;
+  font-style: normal;
+  font-family: serif;
+  color: #000000;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: sans-serif;
+  font-size: 200%;
+  font-weight: Lighter;
+  text-align: center; 
+  width: 100%;}
+
+.index {
+  font-size: 140%;
+}
+
+.index_f {
+  font-size: 140%;
+  text-align: center;
+  color: #000000;
+  background-color: #F1F1F1; 
+  padding: 10px 2% 10px 2%;
+  margin: 0;
+  width: 100%;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: sans-serif;
+  font-size: 150%;
+  font-weight: normal;
+  text-align: left;
+}
+
+h3 {
+  margin-top: 0;
+  font-family: sans-serif;
+  font-size: 130%;
+  font-weight: normal;
+  text-align: left;
+}
+
+h4 {
+  margin-top: 2ex;
+  font-family: sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  text-align: left;
+}
+
+p {}
+
+p.indexlista {
+  font-weight: bold;
+  text-align: left;
+  color: #FFFFFF;
+  background-color: #006666; 
+  padding: 10px 4% 10px 4%;
+  margin: 0;
+  max-width: 100%;
+}
+
+p.indexlista_f {
+  font-weight: normal;
+  text-align: center;
+  line-height: 0;
+  height: 0;
+}
+
+p.sidfot {
+  text-align: center;
+  font-style: italic;
+}
+p.version {
+  text-align: center;
+  font-style: italic;
+  color: #000000;
+  background-color: #F1F1F1; 
+  padding: 10px 0 10px 0;
+  margin: 0;
+  width: 100%;
+}
+
+p.center {
+  text-align: center;
+}
+
+p.ortnamn {
+  margin: 2ex 0 0 0;
+  padding: 0 0 0 2em;
+  font-weight: normal;
+}
+
+p.ortnamn_f {
+  margin: 2ex 0 0 0;
+  padding: 0 0 0 1em;
+  font-weight: bold;
+}
+
+p.ortperson {
+  margin: 0;
+  padding: 0 0 0 3em;
+  font-weight: normal;
+}
+
+p.ortperson_f {
+  margin: 0;
+  padding: 0 0 0 2em;
+  font-weight: normal;
+}
+
+p.personreg_f, p.personreg, p.efternamnsreg_f, p.efternamnsreg {
+  margin-left: 2%;
+  margin-right: 2%;
+  font-weight: normal;
+}
+
+p.partner, p.gifte {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+p.barn {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 4%;
+  font-weight: normal;
+}
+
+p.multimediarubrik {
+  font-size: 100%;
+  font-weight: bold;
+  color: #000000;
+  text-align: left; 
+  width: 100%;
+  margin: 15px 0 0 0;
+  padding-top: 10px;
+  border-top: 1px ridge;
+}
+
+p.multimedia {
+  border-top: thin groove #000000;
+  padding-top: 2ex;
+  font-weight: normal;
+  text-align: center;
+}
+
+p.fotnot, p.kella {
+  border-top: thin groove #000000;
+}
+
+li.fotnot, li.kella {
+  margin: 0 0 0 2%;
+  font-size: 90%;
+  font-weight: normal;
+  text-align: left;
+}
+
+em {}
+  
+em.tn {
+  font-style: normal; 
+  text-decoration: underline;
+}
+
+em.en {
+  font-style: normal;
+}
+
+.ffmm {
+	text-transform: lowercase;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.fotnot, .kellanr {
+	font-size: 0.83em;
+  vertical-align: super;
+  font-size: 80%;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 0;
+}
+
+strong.person {}
+
+strong.gifte, strong.barn {
+  font-weight: normal;
+}
+
+div.ansedel {
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+div.person {
+  font-size: 120%;
+  font-weight: normal;
+  padding-bottom: 1.5ex;
+}
+
+div.notis, div.giften {
+  margin-right: 2%;
+  margin-left: 2%;
+  font-weight: normal;
+}
+
+#clearer, #clearer2 {
+  clear: both;
+  line-height: 0;
+  height: 0;
+}
+
+table {
+  font-size: 100%;
+  font-variant: normal;
+  font-style: normal;
+}
+
+table.antavla {
+  table-layout: fixed;
+  text-align: left;
+  vertical-align: middle;
+  margin-left: 2%;
+  width: 96%;
+}
+
+table.stamtavla {
+  vertical-align: middle;
+  margin-left: 4%;
+  width: 92%;
+  border: thin solid #000000;
+}
+
+table.portrett {
+  margin-top: 1ex;
+}
+
+table.gifte {
+  border: none;
+}
+
+table.portrett_sida {
+  float: right;
+  margin-right: 4%;
+  margin-top: 1ex;
+}
+
+tr, td, th {
+  padding: 0.5ex 0.5em 0.5ex 0.5em;
+  font-variant: normal;
+  font-style: normal;
+}
+
+td.proband, td.f, td.m, td.ff, td.fm, td.mf, td.mm {
+  font-size: 85%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border: thin solid #000000;
+}
+
+td.fff, td.ffm, td.fmf, td.fmm, td.mff, td.mfm, td.mmf, td.mmm, td.ffff, td.fffm, td.ffmf, td.ffmm, td.fmff, td.fmfm, td.fmmf, td.fmmm, td.mfff, td.mffm, td.mfmf, td.mfmm, td.mmff, td.mmfm, td.mmmf, td.mmmm {
+  font-size: 75%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border: thin solid #000000;
+}
+
+td.person_0, td.person_1, td.person_2, td.person_3, td.person_4 {
+  font-size: 85%; 
+  padding-left: 1%;
+  padding-right: 1%;
+  text-align: left;
+  border: thin solid #000000;
+}
+
+td.portrett {}
+
+td.bildtext {
+  padding-left: 1%;
+  padding-right: 1%;
+  text-align: center;
+  font-style: italic;
+  width: inherit;
+}
+
+td.gen {
+  width: 3%;
+  text-align: center;
+}
+
+td.gen_rub {
+  text-align: center;
+}
+
+td.arrow {
+  display: none;
+}
+
+#EndOfPage {
+  line-height: 0;
+  height: 0;
+}
+
+img.arrow, img.tavla, img.ansedel {
+	display: none;
+	border: none;
+	float: none;
+}
+
+img.stamportrett {
+	border: none;
+	width: 16%;
+	margin-left: 42%;
+}
+
+
+img.antavelportrett {
+	border: none;
+	display: block;
+	width: 80%;
+	margin: auto;
+}
+
+img.litetportrett_1gen {
+	border: none;
+	display: block;
+	max-width: 50%;
+	margin:auto;
+	max-height: 300px;
+}
+
+img.litetportrett_2gen {
+	border: none;
+	display: block;
+	max-width: 60%;
+	margin:auto;
+	max-height: 300px;
+}
+
+img.litetportrett_3gen {
+	border: none;
+	display: block;
+	max-width: 70%;
+	margin:auto;
+	max-height: 300px;
+}
+
+img.litetportrett_4gen {
+	border: none;
+	display: block;
+	max-width: 80%;
+	margin:auto;
+	max-height: 300px;
+}
+
+img.startbild {
+	border: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 90%;
+	max-width: 70%;
+}
+
+A:link {color: #000000; text-decoration: none;}
+
+.table4gen {
+  width: 20%;
+  text-align: left;
+  padding: 10px;
+  border: 1px ridge;
+  background: #FFFFFF;
+  color: #000000;
+}
+
+.table4sgen {
+  width: 20%;
+  text-align: left;
+  font-size: 90%;
+  padding: 10px;
+  border: 1px ridge;
+  background: #FFFFFF;
+  color: #000000;
+}
+
+.table3gen {
+  text-align: left;
+  width: 25%;
+  padding: 10px;
+  border: 1px ridge;
+  background: #FFFFFF;
+  color: #000000;
+}
+
+.table3sgen {
+  text-align: left;
+  font-size: 90%;
+  width: 25%;
+  padding: 10px;
+  border: 1px ridge;
+  background: #FFFFFF;
+  color: #000000;
+}
+
+.table2gen {
+  width: 33%;
+  text-align: left;
+  padding: 10px;
+    border: 1px ridge;
+  background: #FFFFFF;
+  color: #000000;
+}
+
+.table2sgen {
+  width: 33%;
+  text-align: left;
+  font-size: 90%;
+  padding: 10px; 
+  border: 1px ridge;
+  background: #FFFFFF;
+  color: #000000;
+}
+
+.table1gen {
+  width: 50%;
+  text-align: left;
+  padding: 10px;
+  border: 1px ridge;
+  background: #FFFFFF;
+  color: #000000;
+}
